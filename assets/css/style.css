@@ -1,0 +1,131 @@
+main {
+  align-items: center;
+  background-image: url(../img/bg-repeat.jpg);
+  background-size: contain;
+  display: flex;
+  height: 100vh;
+  padding: 0 50px;
+  width: 100vw;
+}
+
+.info-content {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.info {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 95%;
+}
+
+.text-title {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 23px;
+  margin-bottom: 11px;
+  padding: 0;
+}
+
+.text-subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  height: 54px;
+  line-height: 18px;
+  width: 300px;
+}
+
+.form-container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  width: 50%;
+}
+
+#contact-form {
+  background: #ffffff;
+  height: 500px;
+  max-height: 390px;
+  max-width: 340px;
+  padding: 22px 20px;
+  width: 100%;
+}
+
+.container-input,
+.container-textarea {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.container-input input {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  height: 35px;
+  line-height: 18px;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.container-input input::placeholder,
+.container-textarea textarea::placeholder {
+  color: #a8a8a8;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.container-textarea textarea {
+  font-size: 15px;
+  font-weight: 400;
+  height: 100%;
+  line-height: 18px;
+  max-height: 100px;
+  padding: 8px 10px;
+  resize: none;
+  width: 100%;
+}
+
+.lbl-required {
+  color: #f52e2e;
+  font-size: 8px;
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 100%;
+}
+
+.lbl-required.active {
+  display: block;
+}
+
+.button {
+  background-color: #3ccc87;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  height: 42px;
+  line-height: 18px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.text-required {
+  font-size: 15px;
+  margin-top: 7px;
+}
+
+.error {
+  border: 1px solid #f52e2e !important;
+}
+
+.success {
+  border: 1px solid #3ccc87 !important;
+}
